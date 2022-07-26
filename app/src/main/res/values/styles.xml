@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Customize CodeScanner Button -->
+    <style name="codeScanner_button_style">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/button_default_text_size</item>
+        <item name="android:colorBackground">@color/button_default_background_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- Customize voiceRecorder Button -->
+    <style name="voiceRecorder_button_style">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/button_default_text_size</item>
+        <item name="android:colorBackground">@color/accentColor_recorderActivity</item>
+        <item name="background">@color/accentColor_recorderActivity</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- Customize TextView -->
+    <style name="textView_style">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/textView_default_text_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <!-- Chronometer -->
+    <style name="chronometer_style">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/fragment_record_chronometer_textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Customize ConstraintLayout -->
+    <style name="constraintLayout_style">
+        <item name="android:padding">@dimen/constraintLayout_default_padding</item>
+    </style>
+
+</resources>

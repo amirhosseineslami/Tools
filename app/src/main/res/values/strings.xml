@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tools</string>
+    
+                    <!--scanner-->
+    <string name="button_mainActivity_scan_text">QRCode Scanner</string>
+    <string name="textView_mainActivity_scan_instruction_text">Recent:</string>
+    <string name="scanner_dialog_title">Result</string>
+    <string name="scanner_dialog_message">Do you want to use this result?</string>
+    <string name="scanner_dialog_positive_button_text">Yes</string>
+    <string name="scanner_dialog_negative_button_text">No, try again</string>
+    
+                 <!--voice recorder-->
+    <string name="button_mainActivity_recorder_text">Voice Recorder</string>
+    <string name="textView_mainActivity_voiceRecorder_instruction_text">Recent:</string>
+    <string name="fragmentRecord_button_startRecording">Record</string>
+    <string name="fragmentRecord_button_stopRecording">Stop</string>
+    <string name="fragment_record_tag">recordFragment</string>
+    <string name="fragment_voice_list_tag">fragmentVoiceList</string>
+    <string name="record_fragment_permission_req_code">reqCode</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+                <!--app theme-->
+    <color name="primary_color">#FFC107</color>
+    <color name="darkPrimaryColor">#FFA000</color>
+    <color name="lightPrimaryColor">#FFECB3</color>
+    <color name="accentColor">#FFEB3B</color>
+
+             <!--RecorderActivity theme-->
+    <color name="primary_color_recorderActivity">#4CAF50</color>
+    <color name="darkPrimaryColor_recorderActivity">#388E3C</color>
+    <color name="lightPrimaryColor_recorderActivity">#C8E6C9</color>
+    <color name="accentColor_recorderActivity">#8BC34A</color>
+
+    <color name="animation_color_item1">#4CAF50</color>
+    <color name="animation_color_item2">#388E3C</color>
+    <color name="animation_color_item3">#8BC34A</color>
+
+
+    <color name="textColor">#212121</color>
+    <color name="button_scannerFlash">#FFBF00</color>
+    <color name="button_default_background_color">#FFEF5F</color>
+
+    <color name="mainActivity_textView_scanner_detailLink">#00FFD9</color>
+
+    <color name="bottom_sheet_bg_background">#00BCD4</color>
+
+</resources>

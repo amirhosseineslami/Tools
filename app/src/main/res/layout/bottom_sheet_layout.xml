@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="50dp"
+    android:id="@+id/my_bottomSheet"
+    android:background="@drawable/bottom_sheet_bg"
+    android:clickable="true"
+    android:focusable="true"
+    >
+
+    <TextView
+        android:id="@+id/textView_bottomSheet"
+        style="@style/textView_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="TextView"
+        android:textSize="@dimen/bottom_sheet_layout_textView_size"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <ImageButton
+        android:id="@+id/bottomSheetBtn"
+        style="@style/voiceRecorder_button_style"
+        android:layout_width="@dimen/bottom_sheet_layout_image_button_size"
+        android:layout_height="@dimen/bottom_sheet_layout_image_button_size"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_bg"
+        android:src="@drawable/ic_baseline_play_arrow_24"
+        app:layout_constraintBottom_toTopOf="@+id/bottomSheet_seekBar"
+        app:layout_constraintEnd_toEndOf="@+id/textView_bottomSheet"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/textView_bottomSheet"
+        app:layout_constraintTop_toBottomOf="@+id/textView_bottomSheet"
+        app:layout_constraintVertical_bias="0.275" />
+
+    <SeekBar
+        android:id="@+id/bottomSheet_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:padding="@dimen/bottom_sheet_layout_seekBar_padding_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_bottomSheet" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

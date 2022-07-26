@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="codeScanner_button_style">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/button_default_text_size</item>
+        <item name="android:backgroundTint">@color/button_default_background_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

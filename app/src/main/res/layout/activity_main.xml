@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/constraintLayout_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/mainActivity_layoutItem_margin">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_scan"
+            style="@style/codeScanner_button_style"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_gravity="center_horizontal|top"
+            android:text="@string/button_mainActivity_scan_text"
+            app:iconGravity="top"
+            app:iconSize="60dp"
+            app:iconTint="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.102"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.027" />
+
+        <TextView
+            style="@style/textView_style"
+            android:id="@+id/textView_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/textView_mainActivity_scan_instruction_text"
+            android:visibility="invisible"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_scan" />
+
+
+    <TextView
+        style="@style/textView_style"
+        android:id="@+id/textView_details_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/mainActivity_textView_scanner_detailLink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_instruction" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/mainActivity_layoutItem_margin"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_recorder"
+            style="@style/codeScanner_button_style"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_gravity="center_horizontal|top"
+            android:text="@string/button_mainActivity_recorder_text"
+            app:backgroundTintMode="add"
+            app:iconGravity="top"
+            app:iconSize="60dp" />
+
+        <TextView
+            android:id="@+id/textView_voiceRecorder_instruction"
+            style="@style/textView_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textView_mainActivity_voiceRecorder_instruction_text"
+            android:visibility="invisible"
+            android:layout_marginTop="8dp"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/textView_last_recording_time"
+            style="@style/textView_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_marginTop="6dp"
+            android:gravity="center"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</LinearLayout>
+

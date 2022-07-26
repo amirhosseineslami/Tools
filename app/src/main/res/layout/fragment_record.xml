@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/constraintLayout_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/fragment_record_constraintLayout_borderPadding">
+
+
+    <ImageView
+        android:id="@+id/imageView_list"
+        style="@style/voiceRecorder_button_style"
+        android:layout_width="@dimen/fragment_record_button_list_size"
+        android:layout_height="@dimen/fragment_record_button_list_size"
+        android:background="@drawable/ic_baseline_list_24"
+        android:contentDescription="TODO"
+        app:backgroundTint="@color/accentColor_recorderActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        style="@style/chronometer_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:gravity="center"
+        android:textSize="@dimen/fragment_record_chronometer_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_list" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_startRecording"
+        style="@style/voiceRecorder_button_style"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/fragmentRecord_button_startRecording"
+        app:backgroundTint="@color/accentColor_recorderActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chronometer" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

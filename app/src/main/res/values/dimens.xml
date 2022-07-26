@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_default_text_size">16sp</dimen>
+    <dimen name="textView_default_text_size">10sp</dimen>
+    <dimen name="constraintLayout_default_padding">8dp</dimen>
+    <dimen name="textView_mainActivity_textSize">10sp</dimen>
+    <dimen name="mainActivity_layoutItem_margin">8dp</dimen>
+
+                <!--voiceRecord-->
+    <dimen name="fragment_record_constraintLayout_borderPadding">8dp</dimen>
+    <dimen name="fragment_record_chronometer_textSize">30sp</dimen>
+    <dimen name="fragment_record_button_list_size">40dp</dimen>
+    <dimen name="bottom_sheet_layout_textView_size">18sp</dimen>
+    <dimen name="bottom_sheet_layout_image_button_size">80dp</dimen>
+    <dimen name="bottom_sheet_layout_seekBar_padding_size">8dp</dimen>
+
+</resources>
